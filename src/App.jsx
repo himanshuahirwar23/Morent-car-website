@@ -1,10 +1,10 @@
 import "./App.css";
-import Car from "./pages/car.jsx";
 import CarRentalComponent from "./pages/CarRentalComponent.jsx";
 import Home from "./pages/Home.jsx";
 import { Route, Routes } from "react-router-dom";
 import PaymentCar from "./pages/PaymentCar.jsx";
 import Dashboard from "./Dashboard.jsx";
+import Car from "./pages/car.jsx";
 
 function App() {
   return (
