@@ -166,9 +166,10 @@ const CarRental = () => {
                 <span className="text-sm line-through text-gray-400 ml-2">${car.discountPrice}</span>
               )} */}
               </div>
-              <button className="bg-blue-500 text-white px-4 py-2 rounded-md">
+             <NavLink to="/carrental"> <button className="bg-blue-500 text-white px-4 py-2 rounded-md">
                 Rent Now
               </button>
+              </NavLink>
             </div>
           </div>
         ))}
