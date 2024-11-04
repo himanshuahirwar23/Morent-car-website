@@ -4,7 +4,8 @@ import Home from "./pages/Home.jsx";
 import { Route, Routes } from "react-router-dom";
 import PaymentCar from "./pages/PaymentCar.jsx";
 import Dashboard from "./Dashboard.jsx";
-import Car from "./pages/car.jsx";
+import Car from "./pages/Car.jsx";
+
 
 function App() {
   return (
