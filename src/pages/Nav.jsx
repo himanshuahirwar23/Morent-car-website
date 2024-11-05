@@ -13,7 +13,7 @@ const Nav = () => {
   return (
     <div className='w-full h-24 bg-white relative flex items-center '>
         <h1 className="text-2xl text-[#3563E9] absolute left-12 font-bold">MORENT</h1>
-        <div className="w-[400px] h-[35px] border absolute left-60 rounded-lg flex items-center
+        <div className="w-[400px] h-[35px] border absolute left-60 rounded-lg flex items-center 
          text-[#ABB3BF] text-sm px-3 justify-between	">
         <CiSearch size={23} />
         <TbAdjustmentsHorizontal size={23}/>

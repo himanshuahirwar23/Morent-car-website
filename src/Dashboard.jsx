@@ -1,7 +1,5 @@
 import React from "react";
 import { CiLogout } from "react-icons/ci";
-
-
 function Dashboard() {
   return (
     <div className="flex h-auto bg-gray-100">
@@ -61,15 +59,15 @@ function Dashboard() {
                 <div className="mt-4 space-y-4">
                   <div>
                     <h4 className="font-semibold">Pick-Up</h4>
-                    <p>Location: Kota Semarang</p>
+                    <p>Location: New Market</p>
                     <p>Date: 20 July 2022</p>
                     <p>Time: 07:00</p>
                   </div>
                   <div>
                     <h4 className="font-semibold">Drop-Off</h4>
-                    <p>Location: Kota Semarang</p>
+                    <p>Location: Bhopal Junction</p>
                     <p>Date: 21 July 2022</p>
-                    <p>Time: 07:00</p>
+                    <p>Time: 09:00</p>
                   </div>
                 </div>
                 <p className="mt-4 font-semibold">Total Rental Price: $80.00</p>
@@ -82,7 +80,7 @@ function Dashboard() {
             <h2 className="font-semibold text-lg mb-4">Top 5 Car Rental</h2>
             {/* Pie Chart Placeholder */}
             <div className="bg-[#3562e9d9] h-40 rounded-md mb-4 flex items-center justify-center">
-              <img className="" src="./car1.png" alt="" />
+                <img className="" src="./car8.png" alt="" />
               {/* <span>Pie Chart</span> */}
               
             </div>
