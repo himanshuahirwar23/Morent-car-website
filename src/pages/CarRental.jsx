@@ -141,7 +141,7 @@ const CarRental = () => {
                   car.favorited ? "text-red-500" : "text-gray-400"
                 }`}
               >
-                {car.favorited ? "🤍" : "🤍"}
+                {car.favorited ? "🤍" : "❤️ "}
               </button>
             </div>
             <p className="text-sm text-gray-500">{car.type}</p>

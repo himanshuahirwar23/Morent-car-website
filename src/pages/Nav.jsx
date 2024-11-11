@@ -5,10 +5,6 @@ import { GoBellFill } from "react-icons/go";
 import { IoSettings } from "react-icons/io5";
 import { FaHeart } from "react-icons/fa";
 
-
-
-
-
 const Nav = () => {
   return (
     <div className='w-full h-24 bg-white relative flex items-center '>
@@ -19,7 +15,7 @@ const Nav = () => {
         <TbAdjustmentsHorizontal size={23}/>
 
 
-        <input placeholder="Search something here" className="w-[200px] h-[20px] text-[#ABB3BF]   absolute left-10">
+        <input placeholder="Search something here" className="w-[300px] h-[22px] text-[#000000] outline-none absolute left-10">
         </input>
 
         </div>
