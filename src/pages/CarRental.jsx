@@ -1,7 +1,5 @@
 import React from "react";
-// import * as ReactDOM from "react-dom/client";
 import { Link, NavLink } from "react-router-dom";
-// import CarRentalComponent from './CarRentalComponent';
 
 const CarRental = () => {
   const cars = [
@@ -12,7 +10,7 @@ const CarRental = () => {
       transmission: "Manual",
       seats: 2,
       price: 99,
-      image: "/car1.png", // Replace with actual image URL
+      image: "/car1.png", 
       favorited: false,
     },
     {
@@ -23,7 +21,7 @@ const CarRental = () => {
       seats: 2,
       price: 80,
       discountPrice: 100,
-      image: "/car1.png", // Replace with actual image URL
+      image: "/car1.png", 
       favorited: true,
     },
     {
@@ -33,7 +31,7 @@ const CarRental = () => {
       transmission: "Manual",
       seats: 4,
       price: 96,
-      image: "/car1.png", // Replace with actual image URL
+      image: "/car1.png",
       favorited: false,
     },
     {
@@ -43,7 +41,7 @@ const CarRental = () => {
       transmission: "Manual",
       seats: 4,
       price: 96,
-      image: "/car1.png", // Replace with actual image URL
+      image: "/car1.png",
       favorited: false,
     },
     {
@@ -53,7 +51,7 @@ const CarRental = () => {
       transmission: "Manual",
       seats: 4,
       price: 96,
-      image: "/car1.png", // Replace with actual image URL
+      image: "/car1.png", 
       favorited: false,
     },
     {
@@ -63,7 +61,7 @@ const CarRental = () => {
       transmission: "Manual",
       seats: 4,
       price: 96,
-      image: "/car1.png", // Replace with actual image URL
+      image: "/car1.png", 
       favorited: false,
     },
     {
@@ -73,7 +71,7 @@ const CarRental = () => {
       transmission: "Manual",
       seats: 4,
       price: 96,
-      image: "/car1.png", // Replace with actual image URL
+      image: "/car1.png",
       favorited: false,
     },
     {
@@ -83,57 +81,57 @@ const CarRental = () => {
       transmission: "Manual",
       seats: 4,
       price: 96,
-      image: "/car1.png", // Replace with actual image URL
+      image: "/car1.png",
       favorited: false,
     },
-    {
-      name: "MG ZX Exclusice",
-      type: "Sedan",
-      engineSize: 7,
-      transmission: "Manual",
-      seats: 4,
-      price: 96,
-      image: "/car1.png", // Replace with actual image URL
-      favorited: false,
-    },
-    {
-      name: "New MG ZS",
-      type: "Sedan",
-      engineSize: 7,
-      transmission: "Manual",
-      seats: 4,
-      price: 96,
-      image: "/car1.png", // Replace with actual image URL
-      favorited: false,
-    },
-    {
-      name: "MG ZX Excite",
-      type: "Sedan",
-      engineSize: 7,
-      transmission: "Manual",
-      seats: 4,
-      price: 96,
-      image: "/car1.png", // Replace with actual image URL
-      favorited: false,
-    },
-    {
-      name: "New MG ZS",
-      type: "Sport",
-      engineSize: 8,
-      transmission: "Manual",
-      seats: 2,
-      price: 80,
-      discountPrice: 100,
-      image: "/car1.png", // Replace with actual image URL
-      favorited: false,
-    },
+    // {
+    //   name: "MG ZX Exclusice",
+    //   type: "Sedan",
+    //   engineSize: 7,
+    //   transmission: "Manual",
+    //   seats: 4,
+    //   price: 96,
+    //   image: "/car1.png", 
+    //   favorited: false,
+    // },
+    // {
+    //   name: "New MG ZS",
+    //   type: "Sedan",
+    //   engineSize: 7,
+    //   transmission: "Manual",
+    //   seats: 4,
+    //   price: 96,
+    //   image: "/car1.png", 
+    //   favorited: false,
+    // },
+    // {
+    //   name: "MG ZX Excite",
+    //   type: "Sedan",
+    //   engineSize: 7,
+    //   transmission: "Manual",
+    //   seats: 4,
+    //   price: 96,
+    //   image: "/car1.png", 
+    //   favorited: false,
+    // },
+    // {
+    //   name: "New MG ZS",
+    //   type: "Sport",
+    //   engineSize: 8,
+    //   transmission: "Manual",
+    //   seats: 2,
+    //   price: 80,
+    //   discountPrice: 100,
+    //   image: "/car1.png", 
+    //   favorited: false,
+    // },
   ];
 
   return (
     <div>
-      <div className="flex flex-wrap justify-center gap-6 p-10">
+      <div className="ml-2 grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-4 justify-center gap-5 p-10">
         {cars.map((car, index) => (
-          <div key={index} className="bg-white shadow-md rounded-lg p-2 w-60">
+          <div key={index} className="bg-white shadow-md rounded-lg p-2 w-70">
             <div className="flex justify-between items-center ">
               <h2 className="text-lg font-bold">{car.name}</h2>
               <button
@@ -176,7 +174,7 @@ const CarRental = () => {
       </div>
 
       <NavLink to="/carrental">
-        <button className="bg-blue-500 text-white px-4 py-2 mb-10 mx-[45%] rounded-md">
+        <button className="bg-blue-500 text-white px-10 py-2 md:px-4 md:py-2 mb-10 ml-[30%] md:mx-[45%] rounded-md">
           Show more
         </button>
       </NavLink>

@@ -1,10 +1,14 @@
 import React from "react";
 import { CiLogout } from "react-icons/ci";
+import Nav from "./pages/Nav";
 function Dashboard() {
   return (
-    <div className="flex h-auto bg-gray-100">
+    <div>
+      <Nav></Nav>
+      <div className="flex h-auto bg-gray-100">
+      
       {/* Sidebar */}
-      <aside className="w-1/5 bg-white p-6 shadow-md flex flex-col justify-between">
+      <aside className="w-1/5 max-md:hidden bg-white p-6 shadow-md flex flex-col justify-between">
         {/* Main Menu */}
         <div>
           <h2 className="text-lg font-semibold mb-8 text-gray-600">MAIN MENU</h2>
@@ -45,7 +49,7 @@ function Dashboard() {
       <main className="flex-1 p-6 space-y-6">
         <div className="grid grid-cols-3 gap-6">
           {/* Details Rental Section */}
-          <section className="col-span-2 bg-white p-6 rounded-md shadow-md">
+          <section className="max-md:w-[84vw] col-span-2 max-md:col-span-4 bg-white p-6 rounded-md shadow-md">
             <h2 className="font-semibold text-lg mb-4">Details Rental</h2>
             {/* Map and Car Details */}
             <div className="grid grid-cols-2 gap-4">
@@ -76,7 +80,7 @@ function Dashboard() {
           </section>
 
           {/* Top 5 Car Rental */}
-          <section className="bg-white p-6 rounded-md shadow-md">
+          <section className="bg-white max-md:w-[84vw] p-6 rounded-md shadow-md">
             <h2 className="font-semibold text-lg mb-4">Top 5 Car Rental</h2>
             {/* Pie Chart Placeholder */}
             <div className="bg-[#3562e9d9] h-40 rounded-md mb-4 flex items-center justify-center">
@@ -94,7 +98,7 @@ function Dashboard() {
           </section>
 
           {/* Recent Transactions */}
-          <section className="col-span-3 bg-white p-6 rounded-md shadow-md">
+          <section className="col-span-3 max-md:w-[84vw]  max-md:col-span-4 bg-white p-6 rounded-md shadow-md">
             <h2 className="font-semibold text-lg mb-4">Recent Transactions</h2>
             <div className="space-y-4">
               <div className="flex justify-between text-gray-700">
@@ -117,6 +121,7 @@ function Dashboard() {
           </section>
         </div>
       </main>
+    </div>
     </div>
   );
 }

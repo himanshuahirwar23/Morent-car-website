@@ -127,7 +127,7 @@ function Car() {
 
           {/* Recent Cars */}
           <h2 className="text-xl font-semibold mb-4">Recent Car</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
               { name: 'Koenigsegg', type: 'Sport', price: 99.00 },
               { name: 'Nissan GT - R', type: 'Sport', price: 80.00 },

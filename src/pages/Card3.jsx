@@ -10,7 +10,7 @@ const Card3 = () => {
           <input type="radio" name="type" checked className="form-radio text-blue-600" />
           <label className="font-semibold text-blue-600">Pick-Up</label>
         </div>
-        <div className="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm">
+        <div className="mt-4 grid grid-cols-1  sm:grid-cols-3 gap-4 text-sm">
           <div>
             <label className="block font-medium">Locations</label>
             <select className="mt-1 block w-full border border-gray-300 rounded-md text-gray-500 focus:ring-blue-500 focus:border-blue-500">
