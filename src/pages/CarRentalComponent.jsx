@@ -70,25 +70,6 @@ function CarRentalComponent() {
           {/* Main Content */}
           <main className="flex-1">
 
-            <div className="  gap-4 mb-6 ">
-              {["Pick-Up Location", "Date", "Time", "Drop-Off Location"].map(
-                (placeholder, idx) => (
-                  <div key={idx} className="flex-1">
-                    <label className="block text-gray-600 mb-1">
-                      {placeholder}
-                    </label>
-                    <input
-                      type="text"
-                      placeholder={placeholder}
-                      className="w-full p-3 border border-gray-300 rounded-md"
-                    />
-                  </div>
-                )
-              )}
-              <button className="bg-blue-500 text-white p-6 rounded-md">
-                Search
-              </button>
-            </div>
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
               {filteredCars.map((car, idx) => (
